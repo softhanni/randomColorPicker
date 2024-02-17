@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Color Picker</title>
+
+    <style>
+        body{
+            background-color: black;
+        }
+.color{
+background-color: red;
+height: 500px;
+width: 350px;
+border: 5px solid white;
+border-radius: 5px;
+margin: auto;
+}
+.btn{
+    background-color: black;
+    width: 350px;
+    height: 75px;
+    margin-top: 425px;
+    justify-content: space-around;
+display: flex;
+align-items: center;
+
+}
+button{
+    width: 140px;
+    height: 50px;
+    /* margin-top: 12px;
+    margin-left: ; */
+    font-size: larger;
+    font-family: serif;
+    border-radius: 5px;
+    border: none;  
+}
+p{
+    /* width: 140px;
+    height: 50px; */
+    background-color: black;  
+    font-size: 17px;
+    text-align:center ;
+    color: white;
+    
+}
+
+    </style>
+</head>
+<body>
+    <div class="color">
+<div class="btn">
+    <button onclick="changeC()" id="changeColor">Change Color</button>
+    <p class="value">rgb(255, 255, 255)</p>
+</div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
